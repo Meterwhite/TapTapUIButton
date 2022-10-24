@@ -21,7 +21,7 @@ pod 'TapTapUIButton'
 3. 未超时时触摸按钮，触发TapTap事件
 > 1. When you touch the button for the first time, the status changes to isSelected = true. By default, the status lasts for 2s.
 > 2. After timeout, the button returns to the original status isSelected = false.
-> 3. When the TapTap event is triggered, touch the button.
+> 3. A TapTap event is triggered when a button is touched without timeout.
 
 ## 使用步骤(Steps to use)
 1. 配置按钮normal状态和selected状态下的UI样式
