@@ -9,5 +9,5 @@ Pod::Spec.new do |s|
   s.ios.deployment_target = '6.0'
   s.requires_arc = true
   s.source       = { :git => "https://github.com/Meterwhite/TapTapUIButton.git", :tag => s.version}
-  s.source_files = 'TapTapUIButton/**/*.{h,m}'
+  s.source_files = 'UIButton+TapTap/**/*.{h,m}'
 end

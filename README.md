@@ -6,9 +6,9 @@
 * 点赞富一生.
 
 ## 导入(Import)
-- Drag floder `TapTapUIButton` to your project.
+- Drag floder `UIButton+TapTap.h` to your project.
 ```objc
-#import "TapTapUIButton.h"
+#import "UIButton+TapTap.h"
 ```
 ## CocoaPods
 ```
@@ -31,10 +31,13 @@ pod 'TapTapUIButton'
 > 2. Set tt_enable to true
 > 3. Configure the callback ` tt_whenTapTaped: ` or ` tt_addTarget: action: `
 
-
 ## 在UITableViewCell下工作(Work in UITableViewCell)
 - 在UITableViewCell下使用时，每次cell重新布局时应该调用一次`tt_refreshState` 。该方法确保按钮的不受cell重用机制的影响。
 > - When used under UITableViewCell, 'tt_refreshState' should be called each time the cell is relaid. This method ensures that the button is not affected by the cell reuse mechanism.
+
+## 在XIB上使用(Use on the XIB)
+- 设置tt_enable为On(Set tt_enable to On)
+![sdl_register](https://raw.githubusercontent.com/Meterwhite/TapTapUIButton/main/ex1.png)
 
 ## 更多(More)
 - 阅读源代码(Read the source code)
