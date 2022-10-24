@@ -23,17 +23,17 @@ pod 'TapTapUIButton'
 > 2. After timeout, the button returns to the original status isSelected = false.
 > 3. When the TapTap event is triggered, touch the button.
 
-## 使用步骤(Using the step)
+## 使用步骤(Steps to use)
 1. 配置按钮normal状态和selected状态下的UI样式
 2. 设置tt_enable为true
-3. 配置回调`tt_whenTapTaped:`或者`tt_addTarget:action:`
+3. 配置回调`tt_whenTapTaped:`(setTt_whenTapTaped:)或者`tt_addTarget:action:`
 > 1. Set the UI style of the button in normal and selected state
 > 2. Set tt_enable to true
 > 3. Configure the callback ` tt_whenTapTaped: ` or ` tt_addTarget: action: `
 
 ## 在UITableViewCell下工作(Work in UITableViewCell)
 - 在UITableViewCell下使用时，每次cell重新布局时应该调用一次`tt_refreshState` 。该方法确保按钮的不受cell重用机制的影响。
-> - When used under UITableViewCell, 'tt_refreshState' should be called each time the cell is relaid. This method ensures that the button is not affected by the cell reuse mechanism.
+> - When used UITableViewCell, 'tt_refreshState' should be called each time the cell will dequeue. This method ensures that the button is not affected by the cell reuse mechanism.
 
 ## 在XIB上使用(Use on the XIB)
 - 设置tt_enable为On(Set tt_enable to On)
