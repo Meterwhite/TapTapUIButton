@@ -14,6 +14,7 @@
 		1812DB0D28E6B185003AE02F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1812DB0C28E6B185003AE02F /* Assets.xcassets */; };
 		1812DB1028E6B185003AE02F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1812DB0E28E6B185003AE02F /* LaunchScreen.storyboard */; };
 		1812DB1328E6B185003AE02F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1812DB1228E6B185003AE02F /* main.m */; };
+		1812DB1C28E6B1AE003AE02F /* UIButton+TapTap.m in Sources */ = {isa = PBXBuildFile; fileRef = 1812DB1B28E6B1AE003AE02F /* UIButton+TapTap.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +30,8 @@
 		1812DB0F28E6B185003AE02F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1812DB1128E6B185003AE02F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1812DB1228E6B185003AE02F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		1812DB1A28E6B1AE003AE02F /* UIButton+TapTap.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIButton+TapTap.h"; sourceTree = "<group>"; };
+		1812DB1B28E6B1AE003AE02F /* UIButton+TapTap.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIButton+TapTap.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +64,7 @@
 		1812DAFF28E6B183003AE02F /* UIButtonWithTapTap */ = {
 			isa = PBXGroup;
 			children = (
+				1812DB1928E6B19F003AE02F /* UIButton+TapTap */,
 				1812DB0028E6B183003AE02F /* AppDelegate.h */,
 				1812DB0128E6B183003AE02F /* AppDelegate.m */,
 				1812DB0328E6B183003AE02F /* SceneDelegate.h */,
@@ -75,6 +79,15 @@
 			);
 			path = UIButtonWithTapTap;
 			sourceTree = "<group>";
+		};
+		1812DB1928E6B19F003AE02F /* UIButton+TapTap */ = {
+			isa = PBXGroup;
+			children = (
+				1812DB1A28E6B1AE003AE02F /* UIButton+TapTap.h */,
+				1812DB1B28E6B1AE003AE02F /* UIButton+TapTap.m */,
+			);
+			path = "UIButton+TapTap";
+			sourceTree = SOURCE_ROOT;
 		};
 /* End PBXGroup section */
 
@@ -150,6 +163,7 @@
 				1812DB0228E6B183003AE02F /* AppDelegate.m in Sources */,
 				1812DB1328E6B185003AE02F /* main.m in Sources */,
 				1812DB0528E6B183003AE02F /* SceneDelegate.m in Sources */,
+				1812DB1C28E6B1AE003AE02F /* UIButton+TapTap.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
